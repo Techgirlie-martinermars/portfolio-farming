@@ -36,3 +36,12 @@
   box-shadow: var(--shadow);
   text-decoration: none;
 }
+.info-link {
+  border-radius: 3px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px;
+  margin: 10px auto;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
