@@ -77,6 +77,34 @@ h4 {
   text-align: center;
   background: var(--special-color);
 }
+.logo {
+  max-height: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  line-height: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+nav a:hover {
+  color: chartreuse;
+  transition: all 100ms ease-in-out;
+}
+.active {
+  color: chartreuse;
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
@@ -99,5 +127,8 @@ h4 {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .logo {
+    font-size: 20px;
   }
 }
