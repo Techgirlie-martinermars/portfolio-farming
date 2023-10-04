@@ -71,7 +71,11 @@ h4 {
   padding: 15px;
   margin: 10px auto;
   text-decoration: none;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--shadow);
+}
+#contact {
+  text-align: center;
+  background: var(--special-color);
 }
 @media (max-width: 900px) {
   .project-description {
