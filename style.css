@@ -26,7 +26,8 @@ h4 {
   padding: 120px 60px;
 }
 .about-section {
-  padding: 120px 60px;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .hero {
@@ -75,7 +76,7 @@ h4 {
 }
 #contact {
   text-align: center;
-  background: var(--special-color);
+  background: var(--secondary-color);
 }
 .logo {
   max-height: 50px;
