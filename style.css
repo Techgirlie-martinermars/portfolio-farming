@@ -104,6 +104,20 @@ nav a:hover {
 .active {
   color: chartreuse;
 }
+footer {
+  background-color: var(--special-color);
+}
+footer .social-links a {
+  color: chocolate;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: chartreuse;
+  transition: all 100ms ease-in-out;
+}
 
 @media (max-width: 900px) {
   .project-description {
