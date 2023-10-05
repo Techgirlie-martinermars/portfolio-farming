@@ -15,6 +15,7 @@ h4 {
   font-size: 20px;
   text-align: center;
 }
+
 .project-description p {
   padding: 20px;
   border-radius: 4px;
@@ -81,19 +82,27 @@ h4 {
 .logo {
   max-height: 50px;
 }
-nav {
+.navbar {
+  background: grey;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
   padding: 20px 0;
+  align-items: center;
 }
 nav ul {
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 nav li {
-  display: inline;
-  list-style: none;
   margin-left: 15px;
-  line-height: 40px;
 }
+
 nav a {
   text-decoration: none;
   color: #000000;
@@ -101,6 +110,9 @@ nav a {
 nav a:hover {
   color: chartreuse;
   transition: all 100ms ease-in-out;
+}
+nav h2 {
+  font-size: 30px;
 }
 .active {
   color: chartreuse;
